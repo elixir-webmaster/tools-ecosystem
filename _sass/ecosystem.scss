@@ -1,0 +1,151 @@
+// Override variables here
+@font-face {
+  font-family: "nunito_sansblack";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-black-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-black-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansblack_italic";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-blackitalic-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-blackitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansbold";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-bold-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansbold_italic";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-bolditalic-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-bolditalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansextrabold";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-extrabold-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-extrabold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansextrabold_italic";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-extrabolditalic-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-extrabolditalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansextralight";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-extralight-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-extralight-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansextralight_italic";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-extralightitalic-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-extralightitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansitalic";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-italic-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-italic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sanslight";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-light-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-light-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sanslight_italic";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-lightitalic-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-lightitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nunito_sansregular";
+  src: url("/assets/fonts/Nunito_Sans/nunitosans-regular-webfont.woff2")
+      format("woff2"),
+    url("/assets/fonts/Nunito_Sans/nunitosans-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family-sans-serif: "nunito_sansregular", serif;
+$box-shadow: 0 0 10px rgba(black, .15);
+
+@import "bootstrap/bootstrap";
+
+/* 
+* For the social media icons. The size of the icons is set in the 
+* _includes/social.html file.
+*/
+.svg-icon {
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+  fill: #828282;
+  vertical-align: text-top;
+}
+
+strong {
+  font-family: "nunito_sansbold";
+}
+
+em, cite {
+    font-family: "nunito_sansitalic";
+}
+
+.hover-shadow {
+  transition: box-shadow 0.4s;
+  &:hover {
+    box-shadow: $box-shadow;
+  }
+}
