@@ -12,10 +12,21 @@ layout: default
             height: 400px;
             align: center;
         }
+        #particles-js {
+   position: absolute;
+   z-index: -1;
+}
+    
     </style>
+    
 </head>
 
-
+<body>
+<div id="particles-js" style="height: 100%; width: 100%; background-color: 00FFFFFF;"></div>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>particlesJS.load('particles-js', '{{ baseurl }}/assets/js/particles.json', function() {
+   console.log('callback - particles.js config loaded');
+ });</script>
 <h1 class="d-none">Home page</h1>
 <div class="row row-cols-1 row-cols-md-2 g-5 mt-4 mb-5">
     <div class="col">
@@ -36,4 +47,4 @@ layout: default
         </div>
     </div>
 </div>
-
+</body>
