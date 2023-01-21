@@ -5,9 +5,20 @@ permalink: /about/why-needed
 ---
 <head>
   <style>
+  #particles-js {
+   position: absolute;
+   z-index: -1;
+}
   </style>
 </head>
 
+
+<body>
+<div id="particles-js" style="height: 100%; width: 100%; background-color: white;"></div>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>particlesJS.load('particles-js', '{{ baseurl }}/assets/js/particles2.json', function() {
+   console.log('callback - particles.js config loaded');
+ });</script>
 <div class="container">
   <div class="row">
     <div class="col"><p>In order to understand our efforts, we need to discuss about metadata. Metadata are data about data. They add context to the data and allow for complete and meaningful analysis.</p></div>
@@ -28,5 +39,5 @@ permalink: /about/why-needed
     <div class="col"><p class="text-center"><strong>Science becomes more complete, more open and more FAIR for everyone.</strong></p></div>
   </div>
 </div>
-
+</body>
 
