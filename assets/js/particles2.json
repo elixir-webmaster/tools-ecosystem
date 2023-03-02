@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 0.41688588250031317,
+      "value": 0.21688588250031317,
       "random": true,
       "anim": {
         "enable": false,
@@ -40,7 +40,7 @@
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 23.976023976023978,
+        "speed": 12.976023976023978,
         "size_min": 2.3976023976023977,
         "sync": false
       }
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 1.60340724038582,
+      "speed": 0.10340724038582,
       "direction": "top",
       "random": false,
       "straight": false,

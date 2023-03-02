@@ -11,7 +11,7 @@
       "value": "#ed7019"
     },
     "shape": {
-      "type": "circle",
+      "type": "image",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -20,9 +20,9 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "src": "assets/image/Gear2.gif",
+        "width": 200,
+        "height": 200
       }
     },
     "opacity": {
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 8.0170362019291,
+      "value": 10.0170362019291,
       "random": true,
       "anim": {
         "enable": false,
@@ -49,12 +49,12 @@
       "enable": true,
       "distance": 120,
       "color": "#ed7019",
-      "opacity": 0.9860954528372792,
-      "width": 1.2827257923086561
+      "opacity": 2.9860954528372792,
+      "width": 0.5
     },
     "move": {
       "enable": true,
-      "speed": 4,
+      "speed": 1,
       "direction": "none",
       "random": false,
       "straight": false,
